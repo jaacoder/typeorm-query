@@ -1,10 +1,11 @@
 {
   "name": "jaacoder-typeorm-query",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Query to simplify fetching data using Typeorm",
-  "main": "query.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "dist/**/*"
+    "dist"
   ],
   "dependencies": {
     "lodash": "^4.17.15",

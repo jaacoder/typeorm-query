@@ -22,7 +22,7 @@ type MetaQueryType<E, R> = {
 }
 type QueryOptionsType = { connection?: Connection, alias?: string, queryRunner?: QueryRunner }
 
-export class Query<E> {
+class Query<E> {
     protected options: QueryOptionsType
     protected queryBuilder: SelectQueryBuilder<E>
     protected proxy
@@ -490,4 +490,8 @@ export class Query<E> {
 
         return this.proxy as this
     }
+}
+
+export default {
+    Query
 }
