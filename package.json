@@ -1,0 +1,29 @@
+{
+  "name": "jaacoder-typeorm-query",
+  "version": "0.0.1",
+  "description": "Query to simplify fetching data using Typeorm",
+  "main": "query.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "typeorm": "^0.2.20"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaacoder/typeorm-query.git"
+  },
+  "author": "jaacoder",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jaacoder/typeorm-query/issues"
+  },
+  "homepage": "https://github.com/jaacoder/typeorm-query#readme"
+}
